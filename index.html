@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="style.css">
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ThinkAIDev — Blogs, Tutorials & AI Demos</title>
+  <meta name="description" content="ThinkAIDev publishes blogs, tutorials, and practical demonstrations of AI solutions." />
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #0b0f14;
+      color: #eaeaea;
+      line-height: 1.6;
+    }
+    header {
+      background: linear-gradient(135deg, #4f46e5, #06b6d4);
+      padding: 40px 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    header p {
+      max-width: 700px;
+      margin: 10px auto 0;
+      opacity: 0.9;
+    }
+    nav {
+      background: #111827;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: #e5e7eb;
+      margin: 0 12px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      color: #38bdf8;
+    }
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      padding: 30px 20px;
+    }
+    .section {
+      margin-bottom: 40px;
+    }
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background: #111827;
+      border-radius: 10px;
+      padding: 20px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+    }
+    .card h3 {
+      margin-top: 0;
+      color: #38bdf8;
+    }
+    footer {
+      background: #020617;
+      padding: 20px;
+      text-align: center;
+      font-size: 0.9rem;
+      opacity: 0.8;
+    }
+    .tag {
+      display: inline-block;
+      background: #1f2933;
+      padding: 4px 8px;
+      border-radius: 6px;
+      margin-right: 5px;
+      font-size: 0.8rem;
+    }
+  </style>
+</head>
+<body>
+
+<header class="hero">
+  <img src="/assets/heroai.png" alt="ThinkAIDev – The AI People" class="hero-image">
+
+  <h1>ThinkAIDev</h1>
+  <p>Blogs, tutorials, and practical demonstrations of real-world AI solutions</p>
+</header>
+
+
+<nav>
+  <a href="#blogs">Blogs</a>
+  <a href="#tutorials">Tutorials</a>
+  <a href="#demos">AI Demos</a>
+  <a href="#about">About Us</a>
+</nav>
+
+<div class="container">
+
+  <section id="blogs" class="section">
+    <h2>Latest Blogs</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>Understanding Large Language Models</h3>
+        <p>A beginner‑friendly explanation of how LLMs work and where they are used.</p>
+        <span class="tag">AI</span><span class="tag">LLM</span>
+      </div>
+      <div class="card">
+        <h3>AI in Business Automation</h3>
+        <p>How companies use AI to automate workflows and reduce operational cost.</p>
+        <span class="tag">Automation</span><span class="tag">Business</span>
+      </div>
+    </div>
+  </section>
+
+  <section id="tutorials" class="section">
+    <h2>Tutorials</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>Build a Chatbot with Open‑Source Tools</h3>
+        <p>Step‑by‑step tutorial to build a simple chatbot using Python.</p>
+        <span class="tag">Python</span><span class="tag">Chatbot</span>
+      </div>
+      <div class="card">
+        <h3>Deploying AI Models for Free</h3>
+        <p>Learn how to deploy lightweight AI demos using free platforms.</p>
+        <span class="tag">Deployment</span><span class="tag">Free</span>
+      </div>
+    </div>
+  </section>
+
+  <section id="demos" class="section">
+    <h2>AI Demonstrations</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>Text Summarization Demo</h3>
+        <p>Live demonstration of AI summarizing long documents.</p>
+        <span class="tag">NLP</span>
+      </div>
+      <div class="card">
+        <h3>Image Classification Demo</h3>
+        <p>See how AI identifies objects in images.</p>
+        <span class="tag">Computer Vision</span>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="section">
+    <h2>About ThinkAIDev</h2>
+    <p>
+      ThinkAIDev is a learning‑focused platform where we share knowledge, tutorials, and
+      practical demonstrations of artificial intelligence solutions. The goal is to
+      make AI understandable, usable, and accessible.
+    </p>
+  </section>
+
+</div>
+
+<footer>
+  © 2026 ThinkAIDev
+</footer>
+
+</body>
+</html>
